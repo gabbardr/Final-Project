@@ -6,3 +6,12 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+
+function noise() {
+  let voice = new Audio("/shaxxvoice1.mp3")
+
+  const start = () => {
+    voice.play()
+  }
+}
