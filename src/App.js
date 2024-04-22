@@ -308,7 +308,7 @@ function App() {
               </div>
           </div>
           <div class="col-4 ms-0 ps-0">
-              <button onClick={output} class="btn float-end mb-5 w-50">
+              <button onClick={output} class="btn float-end mb-5 w-50" alt="Audio found through Myinstants.com">
                 <img src={shaxx} class="h-50 p-0 img-fluid float-end" alt='Lord Shaxx screenshot ingame from D2'></img>
               </button>
           </div>
