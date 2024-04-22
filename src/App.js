@@ -257,7 +257,7 @@ function App() {
   function output() {
     new Audio(voice2).play()
   }
-
+//Extra Javascript feature, audio played when button is pressed
 
   return (
     <div class="bg-success-subtle bg-opacity-50">
