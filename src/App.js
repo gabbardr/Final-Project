@@ -15,7 +15,6 @@ import neomuna from './neomunasky.png';
 import raid1 from './raid1.png';
 import raid2 from './raid2.png';
 import voice2 from './shaxxvoicehammer.mp3';
-//import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -288,7 +287,7 @@ function App() {
                 <h1 class="card-header bg-dark-subtle">The Cabal</h1>
                   <div class="card-body bg-body-secondary">
                     <h1 class="card-title">Cabal Touch Down on Mars to Collect Mine Depots</h1>
-                    <img src={nessus} class="h-50 p-0 img-fluid" alt='sapceship from destiny 2'></img>
+                    <img src={nessus} class="h-50 p-0 img-fluid" alt='Nessus sky screenshot ingame from destiny 2'></img>
                     <p class="card-text">In recent turn of events, the Cabal have decided to make an advancedment onto our mining depots on Mars.
                     They plan to run our mines dry and then destroy them to negate any future use. Guardian its up to you to join in the fight
                     to proctect our mines.</p>
@@ -301,7 +300,7 @@ function App() {
                 <h1 class="card-header bg-dark-subtle">The Tormented</h1>
                   <div class="card-body bg-body-secondary">
                     <h1 class="card-title">Tormentors Strike Neomuna, Neptune</h1>
-                    <img src={neomuna} class="h-50 p-0 img-fluid" alt='sapceship from destiny 2'></img>
+                    <img src={neomuna} class="h-50 p-0 img-fluid" alt='Neomuna sky screenshot ingame from destiny 2'></img>
                     <p class="card-text">After the Veil opened, Tormentors started their assult on Neomuna. The wish to continue to hinder our progress to finding the Whitness. Join the Cloud Strikers on the front lines and 
                     show them what us guardians are made of.</p>
                   </div>
@@ -310,7 +309,7 @@ function App() {
           </div>
           <div class="col-4 ms-0 ps-0">
               <button onClick={output} class="btn float-end mb-5 w-50">
-                <img src={shaxx} class="h-50 p-0 img-fluid float-end" alt='Lord Shaxx from D2'></img>
+                <img src={shaxx} class="h-50 p-0 img-fluid float-end" alt='Lord Shaxx screenshot ingame from D2'></img>
               </button>
           </div>
         </div>
@@ -322,7 +321,7 @@ function App() {
       <div class="row mb-5">
       <div class="col-6">
           <div class="position-relative">
-            <img src={raid1} class="mt-5 img-fluid opacity-50" alt='Screenshot taken ingame from D2'></img>
+            <img src={raid1} class="mt-5 img-fluid opacity-50" alt='Screenshot taken from EDZ ingame from D2'></img>
             <div class="position-absolute top-50 start-50 translate-middle">
               <h1 class="fst-italic text-center mt-5">Root of Nightmares</h1>
               <p class="text-center">Travers the Pyramid and fight off against your foes to find more informaiton about the Traveler</p>
@@ -331,7 +330,7 @@ function App() {
         </div>
         <div class="col-6">
           <div class="position-relative">
-            <img src={raid2} class="mt-5 img-fluid opacity-50" alt='Screenshot taken ingame from D2'></img>
+            <img src={raid2} class="mt-5 img-fluid opacity-50" alt='Screenshot taken from Savathuns Throne World ingame from D2'></img>
             <div class="position-absolute top-50 start-50 translate-middle">
               <h1 class="fst-italic text-center mt-5">Crotas End</h1>
               <p class="text-center">Enter the Pits and face off against Crota to secure the moon</p>
@@ -431,7 +430,7 @@ function App() {
               <div class="row g-0">
                 <div class="collapse" id="collapse1">
                   <div class="col-md-5">
-                    <img src={stphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Solar titan from D2'></img>
+                    <img src={stphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Solar titan screenshot ingame from D2'></img>
                   </div>
                   <div class="col-md-12">
                     <div class="card card-body border-0 bg-body-secondary">
@@ -444,7 +443,7 @@ function App() {
               </div>
             </div>
             <button class="btn w-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
-              <img src={classSolar} class="h-50 p-0 img-fluid" alt='Subclass Solar from D2'></img>
+              <img src={classSolar} class="h-50 p-0 img-fluid" alt='Subclass Solar from D2 created in Figma'></img>
             </button>
             <p class="fst-italic  fs-4">Solar</p>
           </div>
@@ -454,7 +453,7 @@ function App() {
               <div class="row g-0">
                 <div class="collapse" id="collapse2">
                   <div class="col-md-5">
-                    <img src={atphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Arc titan from D2'></img>
+                    <img src={atphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Arc titan screenshot ingame from D2'></img>
                   </div>
                   <div class="col-md-12">
                     <div class="card card-body border-0 bg-body-secondary">
@@ -467,7 +466,7 @@ function App() {
               </div>
             </div>
             <button class="btn w-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
-              <img src={classArc} class="h-50 p-0 img-fluid" alt='Subclass Arc from D2'></img>
+              <img src={classArc} class="h-50 p-0 img-fluid" alt='Subclass Arc from D2 created in Figma'></img>
             </button>
               <p class="fst-italic  fs-4">Arc</p>
           </div>
@@ -477,7 +476,7 @@ function App() {
               <div class="row g-0">
                 <div class="collapse" id="collapse3">
                   <div class="col-md-5">
-                    <img src={vtphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Void titan from D2'></img>
+                    <img src={vtphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Void titan screenshot ingame from D2'></img>
                   </div>
                   <div class="col-md-12">
                     <div class="card card-body border-0 bg-body-secondary">
@@ -490,7 +489,7 @@ function App() {
               </div>
             </div>
             <button class="btn w-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
-              <img src={classVoid} class="h-50 p-0 img-fluid" alt='Subclass Void from D2'></img>
+              <img src={classVoid} class="h-50 p-0 img-fluid" alt='Subclass Void from D2 created in Figma'></img>
             </button>
               <p class="fst-italic  fs-4">Void</p>
           </div>
@@ -500,7 +499,7 @@ function App() {
               <div class="row g-0">
                 <div class="collapse" id="collapse4">
                   <div class="col-md-5">
-                    <img src={strphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Strand titan from D2'></img>
+                    <img src={strphoto} class="h-50 p-0 img-fluid float-start" alt='Subclass Strand titan screenshot ingame from D2'></img>
                   </div>
                   <div class="col-md-12">
                     <div class="card card-body border-0 bg-body-secondary">
@@ -513,7 +512,7 @@ function App() {
               </div>
             </div>
           <button class="btn w-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
-            <img src={classStrand} class="h-50 p-0 img-fluid" alt='Subclass Void from D2'></img>
+            <img src={classStrand} class="h-50 p-0 img-fluid" alt='Subclass Void from D2 created in Figma'></img>
           </button>
               <p class="fst-italic  fs-4">Strand</p>
           </div>
